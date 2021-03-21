@@ -1,0 +1,17 @@
+#navbarCollapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alert-error {
+  background-color: #f2dede;
+  color: #a94442;
+  border-color: #ebccd1;
+}
+
+.alert-success-msg {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border-color: #d6e9c6;
+}
+

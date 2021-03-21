@@ -1,0 +1,22 @@
+extends layout 
+
+block content
+  h1 Register new user
+  form(method='POST', action='/users/register')
+    #form-group
+      label Full name:
+      input.form-control(name='name', type='text', required)
+    #form-group
+      label Email:
+      input.form-control(name='email', type='email', required)
+    #form-group
+      label Username:
+      input.form-control(name='username', type='text' required)
+    #form-group
+      label Password:
+      input.form-control(name='password', type='password' required)
+    #form-group
+      label Confirm password:
+      input.form-control(name='password2', type='password' required)
+    br
+    input.btn.btn-primary(type='submit', value='Submit')
